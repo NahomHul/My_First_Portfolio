@@ -1,18 +1,34 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Tweet page</title>
-  </head>
-  <body>
-      <!-- Embed a Tweet -->
-      <blockquote class="twitter-tweet">
-          <p lang="en" dir="ltr">Just setting up my Twitter. #myfirstTweet</p>
-          &mdash; Your Name (@yourusername) 
-          <a href="https://twitter.com/yourusername/status/1234567890?ref_src=twsrc%5Etfw">March 1, 2023</a>
-      </blockquote>
-      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tweets</title>
+</head>
+<body>
+    <header>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="tweets.html">View My Tweets</a></li>
+        </ul>
+    </header>
 
-      <!-- Link to index.html -->
-      <p><a href="index.html">Go back to homepage</a></p>
-  </body>
+    <main>
+        <article>
+            <blockquote class="twitter-tweet">
+                <p lang="en" dir="ltr">Just setting up my Twitter. #myfirstTweet</p>
+                &mdash; Your Name (@yourusername) 
+                <a href="https://twitter.com/yourusername/status/1234567890?ref_src=twsrc%5Etfw">March 1, 2023</a>
+            </blockquote>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </article>
+        <aside>
+            <p>Placeholder to add comment thread later</p>
+        </aside>
+    </main>
+
+    <footer>
+        <p>Made by Your Name - <a href="https://yourwebsite.com" target="_blank">Your Website</a></p>
+    </footer>
+</body>
 </html>
